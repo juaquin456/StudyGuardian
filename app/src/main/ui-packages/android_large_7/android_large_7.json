@@ -1,0 +1,1835 @@
+{
+  "name": "android_large_7",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "7B6lNxLbgrTrSt3iEtKN5j",
+    "node": "54353:37037",
+    "version": "3635615812",
+    "component-id": "409b1e3955ce158e694046cf65913e9e9ed98d6a"
+  },
+  "default": "Android Large - 7",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Top app bar"
+      },
+      {
+        "type": "text",
+        "id": "Diego"
+      },
+      {
+        "type": "group",
+        "id": "Icon button"
+      },
+      {
+        "type": "text",
+        "id": "Fecha"
+      },
+      {
+        "type": "group",
+        "id": "2. Small (600-904dp)"
+      },
+      {
+        "type": "text",
+        "id": "Actividad"
+      },
+      {
+        "type": "text",
+        "id": "Tiktok: 12:32 pm (Duración: 0:34 minutos) Facebook: 12:21 pm (Duración: 0:11 minutos) YouTube: 10:32 am (Duración: 0:52 min) Tiktok: 10:21 am (Duración: 0:12 min) Geometry Dash: 9:58am (Duración: 0:20 min)"
+      },
+      {
+        "type": "group",
+        "id": "Icon button1"
+      },
+      {
+        "type": "group",
+        "id": "Button"
+      },
+      {
+        "type": "group",
+        "id": "Light / Line Chart / T2"
+      },
+      {
+        "type": "group",
+        "id": "leading-icon"
+      },
+      {
+        "type": "text",
+        "id": "headline"
+      },
+      {
+        "type": "group",
+        "id": "trailing-icon"
+      },
+      {
+        "type": "group",
+        "id": "container"
+      },
+      {
+        "type": "group",
+        "id": "state-layer"
+      },
+      {
+        "type": "group",
+        "id": "Icons/menu_24px"
+      },
+      {
+        "type": "vector",
+        "id": "icon"
+      },
+      {
+        "type": "group",
+        "id": "container1"
+      },
+      {
+        "type": "group",
+        "id": "state-layer1"
+      },
+      {
+        "type": "group",
+        "id": "Icons/account_circle_filled_24px"
+      },
+      {
+        "type": "vector",
+        "id": "icon1"
+      },
+      {
+        "type": "group",
+        "id": "container2"
+      },
+      {
+        "type": "group",
+        "id": "state-layer2"
+      },
+      {
+        "type": "group",
+        "id": "Icon"
+      },
+      {
+        "type": "vector",
+        "id": "icon2"
+      },
+      {
+        "type": "group",
+        "id": "container3"
+      },
+      {
+        "type": "group",
+        "id": "state-layer3"
+      },
+      {
+        "type": "group",
+        "id": "Icon1"
+      },
+      {
+        "type": "vector",
+        "id": "icon3"
+      },
+      {
+        "type": "group",
+        "id": "state-layer4"
+      },
+      {
+        "type": "text",
+        "id": "label-text"
+      },
+      {
+        "type": "group",
+        "id": "Info"
+      },
+      {
+        "type": "text",
+        "id": "Fecha1"
+      },
+      {
+        "type": "group",
+        "id": "Chart"
+      },
+      {
+        "type": "text",
+        "id": "150"
+      },
+      {
+        "type": "text",
+        "id": "0"
+      },
+      {
+        "type": "text",
+        "id": "50"
+      },
+      {
+        "type": "text",
+        "id": "100"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 926"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 927"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 928"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 929"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 696"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 697"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 690"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 691"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 692"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 693"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 694"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 695"
+      },
+      {
+        "type": "text",
+        "id": "Sat"
+      },
+      {
+        "type": "text",
+        "id": "Sun"
+      },
+      {
+        "type": "text",
+        "id": "Frid"
+      },
+      {
+        "type": "text",
+        "id": "Thur"
+      },
+      {
+        "type": "text",
+        "id": "Wed"
+      },
+      {
+        "type": "text",
+        "id": "Tues"
+      },
+      {
+        "type": "text",
+        "id": "Mon"
+      },
+      {
+        "type": "vector",
+        "id": "Line"
+      },
+      {
+        "type": "vector",
+        "id": "Bullet"
+      },
+      {
+        "type": "vector",
+        "id": "Bullet1"
+      },
+      {
+        "type": "vector",
+        "id": "Bullet2"
+      },
+      {
+        "type": "vector",
+        "id": "Bullet3"
+      },
+      {
+        "type": "vector",
+        "id": "Bullet4"
+      },
+      {
+        "type": "vector",
+        "id": "Bullet5"
+      },
+      {
+        "type": "vector",
+        "id": "Bullet6"
+      }
+    ],
+    "modes": {
+      "Android Large - 7": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Top app bar",
+              "Diego",
+              "Icon button",
+              "Fecha",
+              "2. Small (600-904dp)",
+              "Actividad",
+              "Tiktok: 12:32 pm (Duración: 0:34 minutos) Facebook: 12:21 pm (Duración: 0:11 minutos) YouTube: 10:32 am (Duración: 0:52 min) Tiktok: 10:21 am (Duración: 0:12 min) Geometry Dash: 9:58am (Duración: 0:20 min)",
+              "Icon button1",
+              "Button",
+              "Light / Line Chart / T2"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Top app bar",
+            "padding": {
+              "left": "4.0",
+              "top": "8.0",
+              "right": "4.0",
+              "bottom": "8.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "stroke-alignment": "center",
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "leading-icon",
+              "headline",
+              "trailing-icon"
+            ],
+            "item-spacing": "6.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "107.90322580645162",
+              "saturation": "0.7209302325581396",
+              "value": "0.6745098039215687"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Diego",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "88.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "109.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "184.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Diego",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "36.0",
+            "line-height": "1.222222213745117"
+          },
+          {
+            "id": "Icon button",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "61.0"
+              }
+            },
+            "tap-handler": "$back",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "children": [
+              "container2"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Fecha",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "20.0"
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": "-511.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "9.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "font-weight": "900.0",
+            "color": {
+              "alpha": "0.3764705882352941",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Score",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "2. Small (600-904dp)",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "47.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "456.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "266.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "145.0"
+              }
+            },
+            "is-structured": "false",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "300.0",
+              "saturation": "0.015686274509803977",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Actividad",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "47.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "420.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Actividad",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Tiktok: 12:32 pm (Duración: 0:34 minutos) Facebook: 12:21 pm (Duración: 0:11 minutos) YouTube: 10:32 am (Duración: 0:52 min) Tiktok: 10:21 am (Duración: 0:12 min) Geometry Dash: 9:58am (Duración: 0:20 min)",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "47.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "456.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "266.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "145.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Tiktok: 12:32 pm (Duración: 0:34 minutos)\nFacebook: 12:21 pm (Duración: 0:11 minutos)\nYouTube: 10:32 am (Duración: 0:52 min)\nTiktok: 10:21 am (Duración: 0:12 min)\nGeometry Dash: 9:58am (Duración: 0:20 min)",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.3333332824707032",
+            "typeface": "Ubuntu Mono"
+          },
+          {
+            "id": "Icon button1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "302.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "110.0"
+              }
+            },
+            "tap-handler": "$config",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "children": [
+              "container3"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Button",
+            "border-radius": "12.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "99.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "670.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "161.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "42.0"
+              }
+            },
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "269.99999999999994",
+              "saturation": "0.07936507936507942",
+              "value": "0.49411764705882355"
+            },
+            "children": [
+              "state-layer4"
+            ],
+            "item-spacing": "8.0"
+          },
+          {
+            "id": "Light / Line Chart / T2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "49.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "208.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "290.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "157.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Info",
+              "Fecha1",
+              "Chart"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "leading-icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "children": [
+              "container"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "headline",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "264.0",
+              "saturation": "0.15625",
+              "value": "0.12549019607843137"
+            },
+            "text-content": "Study Guardian",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "22.0",
+            "line-height": "1.272727279663086"
+          },
+          {
+            "id": "trailing-icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "children": [
+              "container1"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "container",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "state-layer"
+            ],
+            "item-spacing": "10.0"
+          },
+          {
+            "id": "state-layer",
+            "padding": "8.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Icons/menu_24px"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Icons/menu_24px",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "icon"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "margin": {
+              "left": "3.0",
+              "top": "6.0",
+              "right": "3.0",
+              "bottom": "6.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "icon.svg"
+          },
+          {
+            "id": "container1",
+            "presence": "false",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "state-layer1"
+            ],
+            "item-spacing": "10.0"
+          },
+          {
+            "id": "state-layer1",
+            "padding": "8.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Icons/account_circle_filled_24px"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Icons/account_circle_filled_24px",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "icon1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "icon1",
+            "margin": "2.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "container2",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "state-layer2"
+            ],
+            "item-spacing": "10.0"
+          },
+          {
+            "id": "state-layer2",
+            "padding": "8.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Icon"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "icon2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "icon2",
+            "margin": "4.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "icon1.svg"
+          },
+          {
+            "id": "container3",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "state-layer3"
+            ],
+            "item-spacing": "10.0"
+          },
+          {
+            "id": "state-layer3",
+            "padding": "8.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Icon1"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Icon1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "icon3"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "icon3",
+            "margin": {
+              "left": "1.998779296875",
+              "top": "1.760009765625",
+              "right": "1.9951171875",
+              "bottom": "1.75"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "icon2.svg"
+          },
+          {
+            "id": "state-layer4",
+            "padding": {
+              "left": "24.0",
+              "top": "10.0",
+              "right": "24.0",
+              "bottom": "10.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "label-text"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "label-text",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "180.0",
+              "saturation": "0.9785714285714286",
+              "value": "0.5490196078431373"
+            },
+            "text-content": "Generar Informe",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "1.4285714721679688"
+          },
+          {
+            "id": "Info",
+            "margin": {
+              "left": "267.359619140625",
+              "top": "145.51629638671875"
+            },
+            "is-structured": "false",
+            "clip-content": "false"
+          },
+          {
+            "id": "Fecha1",
+            "margin": {
+              "left": "132.0",
+              "top": "148.0",
+              "right": "125.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "900.0",
+            "color": {
+              "alpha": "0.3764705882352941",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Fecha",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Chart",
+            "margin": {
+              "bottom": "14.48370361328125"
+            },
+            "is-structured": "false",
+            "children": [
+              "150",
+              "0",
+              "50",
+              "100",
+              "Rectangle 926",
+              "Rectangle 927",
+              "Rectangle 928",
+              "Rectangle 929",
+              "Rectangle 696",
+              "Rectangle 697",
+              "Rectangle 690",
+              "Rectangle 691",
+              "Rectangle 692",
+              "Rectangle 693",
+              "Rectangle 694",
+              "Rectangle 695",
+              "Sat",
+              "Sun",
+              "Frid",
+              "Thur",
+              "Wed",
+              "Tues",
+              "Mon",
+              "Line",
+              "Bullet",
+              "Bullet1",
+              "Bullet2",
+              "Bullet3",
+              "Bullet4",
+              "Bullet5",
+              "Bullet6"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "150",
+            "margin": {
+              "right": "284.0",
+              "bottom": "129.29364013671875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "0.3764705882352941",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "150",
+            "overflow": "visible",
+            "text-align": "right",
+            "text-size": "12.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "0",
+            "margin": {
+              "top": "118.373046875",
+              "right": "285.0",
+              "bottom": "10.92059326171875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "0.3764705882352941",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "0",
+            "overflow": "visible",
+            "text-align": "right",
+            "text-size": "12.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "50",
+            "margin": {
+              "top": "77.876953125",
+              "right": "285.0",
+              "bottom": "51.41668701171875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "0.3764705882352941",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "50",
+            "overflow": "visible",
+            "text-align": "right",
+            "text-size": "12.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "100",
+            "margin": {
+              "top": "39.873046875",
+              "right": "284.54248046875",
+              "bottom": "89.42059326171875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "0.3764705882352941",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "100",
+            "overflow": "visible",
+            "text-align": "right",
+            "text-size": "12.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Rectangle 926",
+            "margin": {
+              "left": "7.969970703125",
+              "top": "125.28912353515625",
+              "right": "0.315673828125",
+              "bottom": "17.38153076171875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_926.svg"
+          },
+          {
+            "id": "Rectangle 927",
+            "margin": {
+              "left": "8.0",
+              "top": "84.73016357421875",
+              "right": "0.28564453125",
+              "bottom": "57.94049072265625"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_927.svg"
+          },
+          {
+            "id": "Rectangle 928",
+            "margin": {
+              "left": "8.0",
+              "top": "44.234130859375",
+              "right": "0.28564453125",
+              "bottom": "98.43646240234375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_928.svg"
+          },
+          {
+            "id": "Rectangle 929",
+            "margin": {
+              "left": "8.0",
+              "top": "3.73809814453125",
+              "right": "0.28564453125",
+              "bottom": "138.93255615234375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_929.svg"
+          },
+          {
+            "id": "Rectangle 696",
+            "margin": {
+              "left": "7.712646484375",
+              "top": "3.73809814453125",
+              "right": "282.002197265625",
+              "bottom": "12.46026611328125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_696.svg"
+          },
+          {
+            "id": "Rectangle 697",
+            "margin": {
+              "left": "289.71435546875",
+              "top": "3.73809814453125",
+              "right": "0.00048828125",
+              "bottom": "12.46026611328125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_697.svg"
+          },
+          {
+            "id": "Rectangle 690",
+            "margin": {
+              "left": "48.0",
+              "top": "3.73809814453125",
+              "right": "241.71484375",
+              "bottom": "12.46026611328125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_690.svg"
+          },
+          {
+            "id": "Rectangle 691",
+            "margin": {
+              "left": "88.28564453125",
+              "top": "3.73809814453125",
+              "right": "201.42919921875",
+              "bottom": "12.46026611328125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_691.svg"
+          },
+          {
+            "id": "Rectangle 692",
+            "margin": {
+              "left": "128.5712890625",
+              "top": "3.73809814453125",
+              "right": "161.1435546875",
+              "bottom": "12.46026611328125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_692.svg"
+          },
+          {
+            "id": "Rectangle 693",
+            "margin": {
+              "left": "168.857177734375",
+              "top": "3.73809814453125",
+              "right": "120.857666015625",
+              "bottom": "12.46026611328125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_693.svg"
+          },
+          {
+            "id": "Rectangle 694",
+            "margin": {
+              "left": "209.142822265625",
+              "top": "3.73809814453125",
+              "right": "80.572021484375",
+              "bottom": "12.46026611328125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_694.svg"
+          },
+          {
+            "id": "Rectangle 695",
+            "margin": {
+              "left": "249.4287109375",
+              "top": "3.73809814453125",
+              "right": "40.2861328125",
+              "bottom": "12.46026611328125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "rectangle_695.svg"
+          },
+          {
+            "id": "Sat",
+            "margin": {
+              "left": "199.5712890625",
+              "top": "134.5714111328125",
+              "right": "72.4287109375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "0.3764705882352941",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Sat",
+            "overflow": "visible",
+            "text-size": "12.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Sun",
+            "margin": {
+              "left": "238.857177734375",
+              "top": "134.5714111328125",
+              "right": "30.142822265625"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "0.3764705882352941",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Sun",
+            "overflow": "visible",
+            "text-size": "12.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Frid",
+            "margin": {
+              "left": "158.28564453125",
+              "top": "134.5714111328125",
+              "right": "110.71435546875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "0.3764705882352941",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Frid",
+            "overflow": "visible",
+            "text-size": "12.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Thur",
+            "margin": {
+              "left": "116.0",
+              "top": "134.5714111328125",
+              "right": "149.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "0.3764705882352941",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Thur",
+            "overflow": "visible",
+            "text-size": "12.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Wed",
+            "margin": {
+              "left": "75.71435546875",
+              "top": "134.5714111328125",
+              "right": "190.28564453125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "0.3764705882352941",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Wed",
+            "overflow": "visible",
+            "text-size": "12.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Tues",
+            "margin": {
+              "left": "34.428466796875",
+              "top": "134.5714111328125",
+              "right": "228.571533203125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "0.3764705882352941",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Tues",
+            "overflow": "visible",
+            "text-size": "12.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Mon",
+            "margin": {
+              "left": "1.0",
+              "top": "134.29364013671875",
+              "right": "265.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "0.3764705882352941",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Mon",
+            "overflow": "visible",
+            "text-size": "12.0",
+            "line-height": "1.171875"
+          },
+          {
+            "id": "Line",
+            "margin": {
+              "left": "7.885986328125",
+              "top": "4.6583251953125",
+              "bottom": "17.64447021484375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "line.svg"
+          },
+          {
+            "id": "Bullet",
+            "margin": {
+              "left": "7.377197265625",
+              "top": "123.84869384765625",
+              "right": "281.350830078125",
+              "bottom": "15.84405517578125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "bullet.svg"
+          },
+          {
+            "id": "Bullet1",
+            "margin": {
+              "left": "47.570068359375",
+              "top": "83.5184326171875",
+              "right": "241.157958984375",
+              "bottom": "56.17431640625"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "bullet1.svg"
+          },
+          {
+            "id": "Bullet2",
+            "margin": {
+              "left": "87.76318359375",
+              "top": "43.18817138671875",
+              "right": "200.96484375",
+              "bottom": "96.50457763671875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "bullet2.svg"
+          },
+          {
+            "id": "Bullet3",
+            "margin": {
+              "left": "128.083251953125",
+              "top": "42.46795654296875",
+              "right": "160.644775390625",
+              "bottom": "97.22479248046875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "bullet3.svg"
+          },
+          {
+            "id": "Bullet4",
+            "margin": {
+              "left": "168.403564453125",
+              "top": "2.85784912109375",
+              "right": "120.324462890625",
+              "bottom": "136.83489990234375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "bullet4.svg"
+          },
+          {
+            "id": "Bullet5",
+            "margin": {
+              "left": "208.596435546875",
+              "top": "43.18817138671875",
+              "right": "80.131591796875",
+              "bottom": "96.50457763671875"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "bullet5.svg"
+          },
+          {
+            "id": "Bullet6",
+            "margin": {
+              "left": "249.0439453125",
+              "top": "123.84869384765625",
+              "right": "39.68408203125",
+              "bottom": "15.84405517578125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "bullet6.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "back": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "config": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Android Large - 7",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

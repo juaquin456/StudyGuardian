@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "7B6lNxLbgrTrSt3iEtKN5j",
     "node": "54353:36757",
-    "version": "3612979173",
+    "version": "3635578163",
     "component-id": "8734e0594c68723c4e9602ba31233640e806ed9c"
   },
   "default": "Android Large - 2",
@@ -131,6 +131,7 @@
           },
           {
             "id": "Text field",
+            "presence": "false",
             "alignment": {
               "horizontal": {
                 "attachment": "start",
@@ -198,6 +199,7 @@
           },
           {
             "id": "Icon button",
+            "tap-handler": "$Back",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -483,8 +485,7 @@
                 "sizing-mode": "proportional",
                 "value": "1.0"
               }
-            },
-            "vector-content": "icon.svg"
+            }
           },
           {
             "id": "supporting-text1",
@@ -576,7 +577,7 @@
                 "value": "1.0"
               }
             },
-            "vector-content": "icon1.svg"
+            "vector-content": "icon.svg"
           },
           {
             "id": "state-layer3",
@@ -622,6 +623,11 @@
   },
   "parameters": {
     "on Text field tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Back": {
       "data-type": "void-callback",
       "required": false,
       "description": ""
