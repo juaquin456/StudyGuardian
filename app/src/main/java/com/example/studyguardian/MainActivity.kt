@@ -1,6 +1,5 @@
 package com.example.studyguardian
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -10,24 +9,21 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.material.TextField
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.studyguardian.ui.theme.StudyGuardianTheme
 
 
 import com.example.studyguardian.androidlarge1.AndroidLarge1
@@ -37,6 +33,7 @@ import com.example.studyguardian.androidlarge4.AndroidLarge4
 import com.example.studyguardian.androidlarge5.AndroidLarge5
 import com.example.studyguardian.androidlarge6.AndroidLarge6
 import com.example.studyguardian.androidlarge7.AndroidLarge7
+import com.google.relay.compose.BoxScopeInstanceImpl.align
 
 class MainActivity : ComponentActivity() {
     private var currentScreen: @Composable () -> Unit = { Screen0(::changeScreen) };
@@ -72,9 +69,10 @@ fun Screen0(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun StudentCode(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
+    val code = remember { mutableStateOf("") }
     Box(
         modifier = Modifier.fillMaxSize()
-    ){
+    ) {
         AndroidLarge2(back = { changeScreen { Screen0(changeScreen = changeScreen) } })
         Column(
             modifier = Modifier
@@ -83,8 +81,8 @@ fun StudentCode(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
                 .offset(y = 460.dp)
         ) {
             OutlinedTextField(
-                value = "",
-                onValueChange = { /* Acción al cambiar el valor del campo de texto */ },
+                value = code.value,
+                onValueChange = { code.value = it },
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(vertical = 8.dp),
@@ -113,20 +111,22 @@ fun Tutor(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
 
 @Composable
 fun main_page_tutor(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
-    AndroidLarge6(childInfo = {changeScreen{ page_ingo_child(changeScreen = changeScreen) }})
+    AndroidLarge6(childInfo = { changeScreen { page_ingo_child(changeScreen = changeScreen) } })
 }
 
 @Composable
-fun page_ingo_child(changeScreen: (newScreen: @Composable () -> Unit) -> Unit){
-    AndroidLarge7(back = {changeScreen{ main_page_tutor(changeScreen = changeScreen)}})
+fun page_ingo_child(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
+    AndroidLarge7(back = { changeScreen { main_page_tutor(changeScreen = changeScreen) } })
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun Login(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
+    val email = remember { mutableStateOf("") }
+    val password = remember { mutableStateOf("") }
     Box(
         modifier = Modifier.fillMaxSize()
-    ){
+    ) {
         AndroidLarge5(back = { changeScreen { Tutor(changeScreen = changeScreen) } }, login = {
             changeScreen {
                 main_page_tutor(
@@ -142,8 +142,8 @@ fun Login(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
                 .offset(y = 230.dp)
         ) {
             OutlinedTextField(
-                value = "",
-                onValueChange = { /* Acción al cambiar el valor del campo de texto */ },
+                value = email.value,
+                onValueChange = { email.value = it },
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(vertical = 8.dp),
@@ -154,8 +154,8 @@ fun Login(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
             )
 
             OutlinedTextField(
-                value = "",
-                onValueChange = { /* Acción al cambiar el valor del campo de texto */ },
+                value = password.value,
+                onValueChange = { password.value = it },
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(vertical = 8.dp),
@@ -172,10 +172,13 @@ fun Login(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun Register(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
-
+    val email = remember { mutableStateOf("") }
+    val password = remember { mutableStateOf("") }
+    val names = remember { mutableStateOf("") }
+    val user = remember { mutableStateOf("") }
     Box(
         modifier = Modifier.fillMaxSize()
-    ){
+    ) {
         AndroidLarge4(back = { changeScreen { Tutor(changeScreen = changeScreen) } }, register = {
             changeScreen {
                 Login(
@@ -191,8 +194,8 @@ fun Register(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
                 .offset(y = 210.dp)
         ) {
             OutlinedTextField(
-                value = "",
-                onValueChange = { /* Acción al cambiar el valor del campo de texto */ },
+                value = names.value,
+                onValueChange = { names.value = it },
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(vertical = 8.dp),
@@ -203,8 +206,8 @@ fun Register(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
             )
 
             OutlinedTextField(
-                value = "",
-                onValueChange = { /* Acción al cambiar el valor del campo de texto */ },
+                value = email.value,
+                onValueChange = { email.value = it },
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(vertical = 8.dp),
@@ -215,8 +218,8 @@ fun Register(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
             )
 
             OutlinedTextField(
-                value = "",
-                onValueChange = { /* Acción al cambiar el valor del campo de texto */ },
+                value = user.value,
+                onValueChange = { user.value = it },
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(vertical = 8.dp),
@@ -227,8 +230,8 @@ fun Register(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
             )
 
             OutlinedTextField(
-                value = "",
-                onValueChange = { /* Acción al cambiar el valor del campo de texto */ },
+                value = password.value,
+                onValueChange = { password.value = it },
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(vertical = 8.dp),
