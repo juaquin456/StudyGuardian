@@ -3,8 +3,10 @@ package com.example.studyguardian
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.offset
@@ -20,6 +22,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
@@ -34,7 +37,21 @@ import com.example.studyguardian.androidlarge5.AndroidLarge5
 import com.example.studyguardian.androidlarge6.AndroidLarge6
 import com.example.studyguardian.androidlarge7.AndroidLarge7
 import com.google.relay.compose.BoxScopeInstanceImpl.align
+import android.content.Context
+import android.util.DisplayMetrics
+import android.view.WindowManager
+import androidx.compose.ui.platform.LocalContext
 
+fun getScreenSize(context: Context): Pair<Int, Int> {
+    val displayMetrics = DisplayMetrics()
+    val windowManager = context.getSystemService(Context.WINDOW_SERVICE) as WindowManager
+    windowManager.defaultDisplay.getMetrics(displayMetrics)
+
+    val width = displayMetrics.widthPixels
+    val height = displayMetrics.heightPixels
+
+    return Pair(width, height)
+}
 class MainActivity : ComponentActivity() {
     private var currentScreen: @Composable () -> Unit = { Screen0(::changeScreen) };
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,17 +70,32 @@ class MainActivity : ComponentActivity() {
 
 }
 
+
+
 @Composable
 fun Screen0(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
-    AndroidLarge1(
-        onButtonEstudiante = { changeScreen { StudentCode(changeScreen = changeScreen) } },
-        onButtonTutor = {
-            changeScreen {
-                Tutor(
-                    changeScreen = changeScreen
-                )
-            }
-        })
+    val a = getScreenSize(LocalContext.current.applicationContext)
+    val w = a.first
+    val h = a.second
+    Box(modifier = Modifier
+        .fillMaxSize()
+        .background(Color.White)
+        .padding(horizontal = 24.dp) // Opcional: Añade padding si es necesario
+        .align(Alignment.Center)){
+        AndroidLarge1(
+            modifier = Modifier.fillMaxWidth(),
+            onButtonEstudiante = { changeScreen { StudentCode(changeScreen = changeScreen) } },
+            onButtonTutor = {
+                changeScreen {
+                    Tutor(
+                        changeScreen = changeScreen
+                    )
+                }
+            })
+    }
+
+
+
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -111,7 +143,7 @@ fun Tutor(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
 
 @Composable
 fun main_page_tutor(changeScreen: (newScreen: @Composable () -> Unit) -> Unit) {
-    AndroidLarge6(childInfo = { changeScreen { page_ingo_child(changeScreen = changeScreen) } })
+    AndroidLarge6(childInfo = { changeScreen { page_ingo_child(changeScreen = changeScreen) } }, modifier = Modifier.offset(x = 20.dp))
 }
 
 @Composable
