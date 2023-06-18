@@ -1,0 +1,128 @@
+{
+  "name": "frame_33",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "7B6lNxLbgrTrSt3iEtKN5j",
+    "node": "54403:35449",
+    "version": "3672645145",
+    "component-id": "d8429ccb3edcaae58c121ccdf06be85368037dc2"
+  },
+  "default": "Frame 33",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Group 40"
+      },
+      {
+        "type": "text",
+        "id": "STUDY GUARDIAN"
+      },
+      {
+        "type": "image",
+        "id": "logo_sg 1"
+      }
+    ],
+    "modes": {
+      "Frame 33": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Group 40"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Group 40",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "228.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "346.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "STUDY GUARDIAN",
+              "logo_sg 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "STUDY GUARDIAN",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "228.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "87.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "STUDY GUARDIAN",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "40.0",
+            "letter-spacing": "0.10000000149011612"
+          },
+          {
+            "id": "logo_sg 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "18.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "114.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "192.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "232.0"
+              }
+            },
+            "image-content": "logo_sg_1.png",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Frame 33",
+      "size": {
+        "width": 228.0,
+        "height": 346.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
